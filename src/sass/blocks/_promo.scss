@@ -3,4 +3,34 @@
   position: relative;
   background: url('/img/my_photo4.jpg') center (50%/cover) no-repeat;
   padding-top: 205px;
+  &__title {
+    width: 401px;
+    margin-bottom: 0;
+    margin-top: 9px;
+  }
+  &__subtitle {
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    @include before_circle;
+    
+  }
+  &__btns {
+    margin-top: 25px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
