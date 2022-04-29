@@ -1,5 +1,5 @@
 .sidepanel {
-    position: absolute;
+    position: fixed;
     top: 110px;
     display: flex;
     left: 50px;
@@ -11,7 +11,7 @@
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: #fff;
+        background-color: #000;
     }
     &__text {
         height: 150px;
@@ -20,7 +20,7 @@
             display: block;
             width: 150px;
             transform: rotate(-90deg) translate(-30%, -260%);
-            color: #fff;
+            color: #000;
         }
     }
 }
