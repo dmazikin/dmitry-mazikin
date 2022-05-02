@@ -25,6 +25,15 @@ ul {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
 @import "blocks/promo";
 @import "blocks/title";
 @import "blocks/button";
@@ -35,4 +44,5 @@ ul {
 @import "blocks/skill";
 @import "blocks/portfolio";
 @import "blocks/price";
+@import "blocks/contacts";
 @import "blocks/media";
