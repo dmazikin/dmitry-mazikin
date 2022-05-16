@@ -6,7 +6,12 @@
         grid-template-rows: minmax(245px, auto) minmax(250px, auto);
         grid-auto-rows: minmax(245px, auto);
         column-gap: 70px;
-        row-gap: 40px;
+    }
+    &__list {
+        list-style: none;
+        &-item {
+            margin-bottom: 10px;
+        }
     }
     &__img {
         grid-row-start: 1;
