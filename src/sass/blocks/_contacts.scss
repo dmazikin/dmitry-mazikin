@@ -39,7 +39,7 @@
         grid-template: 45px 190px 45px / repeat(2, 280px);
         row-gap: 27px;
         column-gap: 20px;
-        label {
+        .label {
             display: block;
             position: absolute;
             height: 18px;
@@ -61,8 +61,13 @@
         font-size: 12px;
         display: flex;
         align-items: center;
+        position: relative;
         input {
             margin-right: 10px;
+        }
+        label.error {
+            position: absolute;
+            top: 45px;
         }
     }
     &__input {
@@ -73,6 +78,7 @@
             padding: 20px;
             font-size: 12px;
             font-weight: 500;
+            position: relative;
         }
     }
     &__textarea {
@@ -92,4 +98,10 @@
         color: #fff;
         font-size: 14px;
     }
+}
+
+label.error {
+    font-size: 12px;
+    margin: 0;
+    color: red;
 }

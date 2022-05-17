@@ -25,6 +25,18 @@ ul {
     margin: 0;
 }
 
+input {
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+textarea {
+    &:focus-visible {
+        outline: none;
+    }
+}
+
 h1,
 h2,
 h3,
