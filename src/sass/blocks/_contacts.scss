@@ -98,6 +98,15 @@
         color: #fff;
         font-size: 14px;
     }
+    &-thanks {
+        display: none;
+        text-align: center;
+        &__head {
+            text-transform: uppercase;
+            color: #20c116;
+            font-weight: 700;
+        }
+    }
 }
 
 label.error {

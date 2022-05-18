@@ -35,6 +35,8 @@ $("form").submit(function(e) {
         data: $(this).serialize(),
     }).done(function() {
         $(this).find("input").val("");
+        $(".contacts__wrapper").fadeOut();
+        $(".contacts-thanks").show();
         $("form").trigger("reset");
     });
     return false;
