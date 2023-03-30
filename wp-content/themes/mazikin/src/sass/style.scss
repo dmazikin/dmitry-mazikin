@@ -1,0 +1,12 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"');
+@import "base/variables";
+@import "base/mixins";
+* {
+    font-family: 'Poiret One', sans-serif;
+}
+
+.title {
+    font-family: 'Russo One', sans-serif;
+}
