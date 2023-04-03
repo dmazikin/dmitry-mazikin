@@ -53,7 +53,9 @@ yarn-error.log*
 # ignore everything in the root except the "wp-content" directory.
 /*
 !wp-content/
-
+!gulpfile.js
+!package-lock.json
+!package.json
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
 
