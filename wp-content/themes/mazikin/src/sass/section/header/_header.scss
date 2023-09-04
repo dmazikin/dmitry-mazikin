@@ -1,12 +1,84 @@
+.head-section {
+    height: 100vh;
+    background: #28293E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .navbar {
     padding-top: 30px;
 }
 
-.offcanvas.offcanvas-end {
-    top: 30px;
+.navbar-brand {
+    margin-right: 160px;
+}
+
+.b-logo {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    &_d {
+        text-transform: uppercase;
+        color: #EF6D58;
+    }
+    &-web {
+        font-size: 15px;
+        &_w,
+        &_d {
+            color: #EF6D58;
+        }
+    }
 }
 
 .about {
     margin-top: 5%;
     height: 100vh;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    &__beta {
+        position: relative;
+    }
+}
+
+.beta {
+    position: absolute;
+    top: 3px;
+    right: -15px;
+    font-size: 10px;
+    color: #EF6D58;
+}
+
+.navbar-nav {
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link:hover,
+.nav-link:focus {
+    color: #EF6D58;
+}
+
+.btn {
+    width: 138px;
+    min-height: 48px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: background-color 1s;
+    &:hover {
+        color: #FFFFFF;
+        background-color: #EF6D58;
+    }
 }
