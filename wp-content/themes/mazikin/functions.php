@@ -144,8 +144,7 @@ add_action('widgets_init', 'mazikin_widgets_init');
 function mazikin_scripts()
 {
 	wp_enqueue_style('mazikin-style', get_template_directory_uri() . '/css/style.min.css');
-	wp_enqueue_script('mazikin-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
-	wp_enqueue_script('mazikin-main-js', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true);
+	wp_enqueue_script('mazikin-main-js', get_template_directory_uri() . '/js/main.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'mazikin_scripts');
 

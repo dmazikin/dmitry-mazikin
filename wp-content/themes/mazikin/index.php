@@ -15,14 +15,5 @@
 
 get_header();
 ?>
-<section class="about">
-  <h1 class="title">Немного о себе...</h1>
-  <div class="container">
-    <div class="row">
-
-    </div>
-  </div>
-</section>
-<!-- /.about -->
 <?php
 get_footer();

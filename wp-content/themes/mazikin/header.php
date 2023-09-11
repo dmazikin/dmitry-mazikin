@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <title><?php bloginfo('description'); ?></title>
   <?php wp_head(); ?>
 </head>
@@ -102,4 +102,35 @@
       </nav>
     </header>
     <!-- /.header -->
+    <div class="present-section">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper swiper-present">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper-present__slide">
+              <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                  <div class="swiper-present__subtitle">эксперт по web-разработке</div>
+                  <div class="title">Создание цифровой продукции</div>
+                  <div class="swiper-present__about">
+                    Предоставляю спектр услуг по созданию сайтов и интернет-магазинов,а так же техническое обеспечение.
+                  </div>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-present__slide">Slide 2</div>
+            <div class="swiper-slide swiper-present__slide">Slide 3</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.present-section -->
   </div>
