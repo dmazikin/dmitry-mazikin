@@ -41,7 +41,7 @@
                 m
               </span>
               <span class="b-logo_4">
-                4
+                @
               </span>
               <span class="b-logo_z">
                 z
@@ -76,13 +76,12 @@
           </a>
           <!-- /.nav-brand -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-solid"></span>
+            <span class="navbar-toggler-solid"></span>
+            <span class="navbar-toggler-solid"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Главная</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Обо мне</a>
               </li>
@@ -90,13 +89,13 @@
                 <a class="nav-link" href="#">Портфолио</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Прайс-лист</a>
+                <a class="nav-link" href="#">Услуги</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link__beta" href="#">Блог<div class="beta">beta</div></a>
               </li>
             </ul>
-            <button class="btn">Напиши мне</button>
+            <button class="btn">Обсудить проект</button>
           </div>
         </div>
       </nav>
@@ -111,19 +110,25 @@
             <!-- Slides -->
             <div class="swiper-slide swiper-present__slide">
               <div class="row">
-                <div class="col-lg-6 col-xs-12">
+                <div class="col-md-6">
                   <div class="swiper-present__subtitle">эксперт по web-разработке</div>
-                  <div class="title">Создание цифровой продукции</div>
+                  <h1 class="title">Создание цифровой продукции</h1>
                   <div class="swiper-present__about">
-                    Предоставляю спектр услуг по созданию сайтов и интернет-магазинов,а так же техническое обеспечение.
+                    Создаю цифровые решения для бизнеса и считаю, что лучшие решения — просты, эффективны и немного необычны. Помогаю привлечь клиентов из интернета, повысить известность компании.
                   </div>
+                  <div class="btn-box">
+                    <a href="#" class="btn btn_work">Портфолио</a>
+                    <button class="btn btn_contact">Обсудить проект</button>
+                  </div>
+                  <!-- /.btn-box -->
                 </div>
-                <div class="col-lg-6">
-
+                <div class="col-md-6">
                 </div>
               </div>
             </div>
-            <div class="swiper-slide swiper-present__slide">Slide 2</div>
+            <div class="swiper-slide swiper-present__slide">
+
+            </div>
             <div class="swiper-slide swiper-present__slide">Slide 3</div>
           </div>
           <!-- If we need pagination -->

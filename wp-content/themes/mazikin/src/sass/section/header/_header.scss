@@ -69,20 +69,45 @@
     color: #EF6D58;
 }
 
-.btn {
-    width: 138px;
-    min-height: 48px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.30);
-    transition: background-color 1s;
-    &:hover {
-        color: #FFFFFF;
+@media (max-width: 875px) {
+    button.navbar-toggler {
+        border: none;
+        &:focus-visible {
+            outline: none;
+        }
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .navbar-toggler {
+        display: block;
+        height: 50px;
+        padding: 0;
+        width: 40px;
+    }
+    .navbar-toggler-solid {
+        display: block;
+        height: 4px;
         background-color: #EF6D58;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .b-logo {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .b-logo-web {
+        font-size: 13px;
+    }
+    .beta {
+        left: 40px;
+        right: 0;
     }
 }

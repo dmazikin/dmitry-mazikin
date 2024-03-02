@@ -1,0 +1,51 @@
+.btn {
+    display: inline-block;
+    min-width: 189px;
+    min-height: 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: background-color 1s;
+    &:hover {
+        color: #FFFFFF;
+        background-color: #EF6D58;
+    }
+    &_work {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: #EF6D58;
+        }
+    }
+    &_contact {
+        position: relative;
+        background: none;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        text-transform: none;
+        padding: 0;
+        margin-left: 46px;
+        border-radius: none;
+        transition: all;
+        &:hover {
+            background: none;
+            border: none;
+            transition-duration: 2s;
+            &::after {
+                content: '';
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                height: 2px;
+                background-color: #EF6D58;
+                width: 100%;
+            }
+        }
+    }
+}

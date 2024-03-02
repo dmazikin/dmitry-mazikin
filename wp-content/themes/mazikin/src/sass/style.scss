@@ -1,9 +1,10 @@
 @import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 @import 'libs/bootstrap-grid.min';
 @import "base/variables";
 @import "base/mixins";
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Tektur', sans-serif;
 }
 
 a:hover {
@@ -14,5 +15,6 @@ body {
     background: #FDF0E9;
 }
 
+@import "components/btn";
 @import "section/header/header";
 @import "section/present-section/slide-1";
