@@ -110,9 +110,9 @@
             <!-- Slides -->
             <div class="swiper-slide swiper-present__slide">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                   <div class="swiper-present__subtitle">эксперт по web-разработке</div>
-                  <h1 class="title">Создание цифровой продукции</h1>
+                  <h1 class="title">Создание landing-page и интернет-магазинов.</h1>
                   <div class="swiper-present__about">
                     Создаю цифровые решения для бизнеса и считаю, что лучшие решения — просты, эффективны и немного необычны. Помогаю привлечь клиентов из интернета, повысить известность компании.
                   </div>
@@ -127,7 +127,38 @@
               </div>
             </div>
             <div class="swiper-slide swiper-present__slide">
-
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="offer">
+                    <div class="offer-wrapper">
+                      <div class="offer-title">Верстка landing-page и интернет-магазина</div>
+                      <div class="offer-subtitle">По вашему дизайн-макету</div>
+                    </div>
+                    <!-- /.offer-wrapper -->
+                  </div>
+                  <!-- /.offer -->
+                </div>
+                <div class="col-md-4">
+                  <div class="offer">
+                    <div class="offer-wrapper">
+                      <div class="offer-title">Создание интернет магазина</div>
+                      <div class="offer-subtitle">На WordPress под ключ</div>
+                    </div>
+                    <!-- /.offer-wrapper -->
+                  </div>
+                  <!-- /.offer -->
+                </div>
+                <div class="col-md-4">
+                  <div class="offer">
+                    <div class="offer-wrapper">
+                      <div class="offer-title">Техническое обслуживание</div>
+                      <div class="offer-subtitle">Вашего сайта</div>
+                    </div>
+                    <!-- /.offer-wrapper -->
+                  </div>
+                  <!-- /.offer -->
+                </div>
+              </div>
             </div>
             <div class="swiper-slide swiper-present__slide">Slide 3</div>
           </div>

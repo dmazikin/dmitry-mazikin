@@ -51,6 +51,24 @@
     margin-bottom: 24px;
 }
 
+.offer {
+    border: 1px solid rgba(227, 227, 227, 0.3);
+    min-height: 424px;
+    &-wrapper {
+        padding: 32px;
+    }
+}
+
+.offer-title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.offer-subtitle {
+    font-size: 16px;
+    color: rgb(227, 227, 227);
+}
+
 @media (max-width: 575px) {
     .present-section {
         margin: 0;
