@@ -102,17 +102,17 @@
     </header>
     <!-- /.header -->
     <div class="present-section">
-      <div class="container">
-        <!-- Slider main container -->
-        <div class="swiper swiper-present">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide swiper-present__slide">
+      <!-- Slider main container -->
+      <div class="swiper swiper-present">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-present__slide">
+            <div class="container">
               <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-12">
                   <div class="swiper-present__subtitle">эксперт по web-разработке</div>
-                  <h1 class="title">Создание landing-page и интернет-магазинов.</h1>
+                  <h1 class="title">Создание цифровых продуктов</h1>
                   <div class="swiper-present__about">
                     Создаю цифровые решения для бизнеса и считаю, что лучшие решения — просты, эффективны и немного необычны. Помогаю привлечь клиентов из интернета, повысить известность компании.
                   </div>
@@ -122,51 +122,64 @@
                   </div>
                   <!-- /.btn-box -->
                 </div>
-                <div class="col-md-6">
-                </div>
               </div>
             </div>
-            <div class="swiper-slide swiper-present__slide">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="offer">
-                    <div class="offer-wrapper">
-                      <div class="offer-title">Верстка landing-page и интернет-магазина</div>
-                      <div class="offer-subtitle">По вашему дизайн-макету</div>
-                    </div>
-                    <!-- /.offer-wrapper -->
-                  </div>
-                  <!-- /.offer -->
-                </div>
-                <div class="col-md-4">
-                  <div class="offer">
-                    <div class="offer-wrapper">
-                      <div class="offer-title">Создание интернет магазина</div>
-                      <div class="offer-subtitle">На WordPress под ключ</div>
-                    </div>
-                    <!-- /.offer-wrapper -->
-                  </div>
-                  <!-- /.offer -->
-                </div>
-                <div class="col-md-4">
-                  <div class="offer">
-                    <div class="offer-wrapper">
-                      <div class="offer-title">Техническое обслуживание</div>
-                      <div class="offer-subtitle">Вашего сайта</div>
-                    </div>
-                    <!-- /.offer-wrapper -->
-                  </div>
-                  <!-- /.offer -->
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide swiper-present__slide">Slide 3</div>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
+          <div class="swiper-slide swiper-present__slide">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="swiper-present__subtitle">Landing-page</div>
+                  <div class="title">Создание сайта визитки и посадочной страницы</div>
+                  <div class="swiper-present__about">
+                    <ul class="swiper-present-list">
+                      <li class="swiper-presetn__item">Разработаю landing-page под ключ по дизайн макету.</li>
+                      <li class="swiper-presetn__item">
+                        Интегрирую с популярными CMS-системами ,такими как WordPress и 1С-Bitix.
+                      </li>
+                      <li class="swiper-presetn__item">
+                        Страничка будет готова принимать заявки на товары или услуги.
+                      </li>
+                      <li class="swiper-presetn__item">
+                        Комплексный подход. В стоимость входит разработка под все разрешение экранов.
+                      </li>
+                    </ul>
+                    <a href="#" class="btn btn_work">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-present__slide">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="swiper-present__subtitle">Интернет-магазин</div>
+                  <div class="title">Помощь в продаже товаров</div>
+                  <div class="swiper-present__about">
+                    <ul class="swiper-present-list">
+                      <li class="swiper-presetn__item">Разработаю landing-page под ключ по дизайн макету.</li>
+                      <li class="swiper-presetn__item">
+                        Интегрирую с популярными CMS-системами ,такими как WordPress и 1С-Bitix.
+                      </li>
+                      <li class="swiper-presetn__item">
+                        Страничка будет готова принимать заявки на товары или услуги.
+                      </li>
+                      <li class="swiper-presetn__item">
+                        Комплексный подход. В стоимость входит разработка под все разрешение экранов.
+                      </li>
+                    </ul>
+                    <a href="#" class="btn btn_work">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- /.container -->
     </div>
-    <!-- /.present-section -->
+    <!-- /.container -->
   </div>
+  <!-- /.present-section -->
