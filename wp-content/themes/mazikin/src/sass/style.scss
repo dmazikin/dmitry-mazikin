@@ -3,6 +3,44 @@
 @import 'libs/bootstrap-grid.min';
 @import "base/variables";
 @import "base/mixins";
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+button {
+    font: inherit;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+address {
+    margin: 0;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    font: inherit;
+}
+
+::selection {
+    background: $orange-yellow-crayola;
+    color: $smoky-black;
+}
+
+:focus {
+    outline-color: $orange-yellow-crayola;
+}
+
 * {
     font-family: 'Tektur', sans-serif;
 }
@@ -12,9 +50,20 @@ a:hover {
 }
 
 body {
-    background: #FDF0E9;
+    background: $smoky-black;
+}
+
+
+/*-----------------------------------*\
+  #MAIN
+\*-----------------------------------*/
+
+.main {
+    margin: 15px 12px;
+    margin-bottom: 75px;
+    min-width: 259px;
 }
 
 @import "components/btn";
+@import "section/header/sidebar";
 @import "section/header/header";
-@import "section/present-section/slide-1";
