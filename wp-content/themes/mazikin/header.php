@@ -30,3 +30,23 @@
 <body <?php body_class(); ?>>
   <!-- MAIN -->
   <main class="main">
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Обо мне</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Портфолио</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Блог</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Контакты</button>
+          </li>
+        </ul>
+        <!-- /.navbar-list -->
+      </nav>
+      <!-- /.navbar -->

@@ -1,194 +1,34 @@
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/* NAVBAR */
 
-.sidebar {
-    background: $eerie-black-2;
-    border: 1px solid $jet;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: $shadow-1;
-    z-index: 1;
-}
-
-.separator {
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 1px;
-    background: $jet;
-    margin: 16px 0;
-}
-
-.icon-box {
-    position: relative;
-    background: $bg-gradient-onyx;
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    font-size: 16px;
-    color: $orange-yellow-crayola;
-    box-shadow: $shadow-1;
-}
-
-.icon-box::before {
-    content: '';
-    position: absolute;
-    inset: 1px;
-    background: $eerie-black-1;
-    border-radius: inherit;
-    z-index: -1;
-}
-
-.icon-box ion-icon {
-    --ionicon-stroke-width: 35px;
-}
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
-
-.sidebar {
-    margin-bottom: 15px;
-    max-height: 115px;
-    overflow: hidden;
-    transition: $transition-2;
-    &-info {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 15px;
-    }
-}
-
-.sidebar.active {
-    max-height: 475px;
-}
-
-.avatar-box {
-    background: $bg-gradient-onyx;
-    border-radius: 20px;
-}
-
-.info-content .name {
-    color: $white-2;
-    font-size: $fs-3;
-    font-weight: $fw-500;
-    letter-spacing: -0.25px;
-    margin-bottom: 10px;
-}
-
-.info-content .title {
-    color: $white-1;
-    background: $onyx;
-    font-size: $fs-8;
-    font-weight: $fw-300;
-    width: max-content;
-    padding: 3px 12px;
-    border-radius: 8px;
-}
-
-.info_more-btn {
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    border-radius: 0 15px;
-    font-size: 13px;
-    color: $orange-yellow-crayola;
-    background: $border-gradient-onyx;
-    padding: 10px;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid $jet;
+    border-radius: 12px 12px 0 0;
     box-shadow: $shadow-2;
-    transition: $transition-1;
-    z-index: 1;
-}
-
-.info_more-btn::before {
-    content: '';
-    position: absolute;
-    inset: 1px;
-    border-radius: inherit;
-    background: $bg-gradient-jet;
-    transition: $transition-1;
-    z-index: -1;
-}
-
-.info_more-btn:hover,
-.info_more-btn:focus {
-    background: $bg-gradient-yellow-1;
-}
-
-.info_more-btn:hover::before,
-.info_more-btn:focus::before {
-    background: $bg-gradient-yellow-2;
-}
-
-.info_more-btn span {
-    display: none;
-}
-
-.sidebar-info_more {
-    opacity: 0;
-    visibility: hidden;
-    transform: $transition-2;
-}
-
-.sidebar.active .sidebar-info_more {
-    opacity: 1;
-    visibility: visible;
-}
-
-.contacts-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    min-width: 100%;
-}
-
-.contact-info {
-    max-width: calc(100% - 46px);
-    width: calc(100% - 46px);
-}
-
-.contact-title {
-    color: $light-gray-70;
-    font-size: $fs-8;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-}
-
-.contact-info :is(.contact-link, time, address) {
-    color: $white-2;
-    font-size: $fs-7;
-}
-
-.contact-info address {
-    font-style: normal;
-}
-
-.social-list {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 15px;
-    padding-bottom: 4px;
-    padding-left: 7px;
-}
-
-.social-item .social-link {
-    color: $light-gray-70;
-    font-size: 18px;
-}
-
-.social-item .social-link:hover {
-    color: $light-gray;
+    z-index: 5;
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    &-link {
+        color: $light-gray;
+        font-size: $fs-8;
+        padding: 20px 7px;
+        transition: color $transition-1;
+        &:hover,
+        &:focus {
+            color: $light-gray-70;
+        }
+    }
+    &-link.active {
+        color: $orange-yellow-crayola;
+    }
 }
