@@ -8,6 +8,10 @@
   #RESET
 \*-----------------------------------*/
 
+img {
+    display: block;
+}
+
 button {
     font: inherit;
     background: none;
@@ -68,3 +72,4 @@ body {
 @import "components/btn";
 @import "section/header/sidebar";
 @import "section/header/header";
+@import "section/about";
