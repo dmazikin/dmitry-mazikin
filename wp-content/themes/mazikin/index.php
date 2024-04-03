@@ -169,6 +169,44 @@ get_sidebar();
     <!-- /.testimonials-list has-scrollbar -->
   </section>
   <!-- /.testimonials -->
+  <!-- CLIENTS -->
+  <section class="clients">
+    <h3 class="h3 clients-title">Клиенты</h3>
+    <ul class="clients-list has-scrollbar">
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-1-color.png" alt="">
+        </a>
+      </li>
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-2-color.png" alt="">
+        </a>
+      </li>
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-3-color.png" alt="">
+        </a>
+      </li>
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-4-color.png" alt="">
+        </a>
+      </li>
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-5-color.png" alt="">
+        </a>
+      </li>
+      <li class="clients-item">
+        <a href="#">
+          <img src="/wp-content/themes/mazikin/img/logo-6-color.png" alt="">
+        </a>
+      </li>
+    </ul>
+    <!-- /.clients-list has-scrollbar -->
+  </section>
+  <!-- /.clients -->
 </article>
 <?php
 get_footer();
