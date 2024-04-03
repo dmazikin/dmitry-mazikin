@@ -207,6 +207,50 @@ get_sidebar();
     <!-- /.clients-list has-scrollbar -->
   </section>
   <!-- /.clients -->
+  <!-- SKILLS -->
+  <section class="skill">
+    <h3 class="h3 skill-title">Навыки</h3>
+    <ul class="skill-list content-card">
+      <li class="skill-item">
+        <div class="title-wrapper">
+          <div class="skill-item-title">Test</div>
+          <data value="100%">100%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+      </li>
+      <li class="skill-item">
+        <div class="title-wrapper">
+          <div class="skill-item-title">Test</div>
+          <data value="100%">100%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+      </li>
+      <li class="skill-item">
+        <div class="title-wrapper">
+          <div class="skill-item-title">Test</div>
+          <data value="100%">100%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+      </li>
+      <li class="skill-item">
+        <div class="title-wrapper">
+          <div class="skill-item-title">Test</div>
+          <data value="100%">100%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+      </li>
+    </ul>
+    <!-- /.skill-list -->
+  </section>
+  <!-- /.skill -->
 </article>
 <?php
 get_footer();
