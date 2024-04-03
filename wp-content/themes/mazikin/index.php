@@ -101,7 +101,7 @@ get_sidebar();
     <h3 class="h3 testimonials-title">Рекомендации</h3>
     <ul class="testimonials-list has-scrollbar">
       <li class="testimonials-item">
-        <a href="#" class="content-card" data-testimonials-item>
+        <div class="content-card" data-testimonials-item>
           <figure class="testimonials-avatar-box">
             <img src="wp-content/themes/mazikin/img/avatar-1.png" alt="" width="60" data-testimonials-avatar>
           </figure>
@@ -114,11 +114,11 @@ get_sidebar();
             </p>
           </div>
           <!-- /.testimonials-text -->
-        </a>
+        </div>
         <!-- /.content-card -->
       </li>
       <li class="testimonials-item">
-        <a href="#" class="content-card" data-testimonials-item>
+        <div class="content-card" data-testimonials-item>
           <figure class="testimonials-avatar-box">
             <img src="wp-content/themes/mazikin/img/avatar-2.png" alt="" width="60" data-testimonials-avatar>
           </figure>
@@ -130,11 +130,11 @@ get_sidebar();
             </p>
           </div>
           <!-- /.testimonials-text -->
-        </a>
+        </div>
         <!-- /.content-card -->
       </li>
       <li class="testimonials-item">
-        <a href="#" class="content-card" data-testimonials-item>
+        <div class="content-card" data-testimonials-item>
           <figure class="testimonials-avatar-box">
             <img src="wp-content/themes/mazikin/img/avatar-3.png" alt="" width="60" data-testimonials-avatar>
           </figure>
@@ -146,11 +146,11 @@ get_sidebar();
             </p>
           </div>
           <!-- /.testimonials-text -->
-        </a>
+        </div>
         <!-- /.content-card -->
       </li>
       <li class="testimonials-item">
-        <a href="#" class="content-card" data-testimonials-item>
+        <div class="content-card" data-testimonials-item>
           <figure class="testimonials-avatar-box">
             <img src="wp-content/themes/mazikin/img/avatar-4.png" alt="" width="60" data-testimonials-avatar>
           </figure>
@@ -162,7 +162,7 @@ get_sidebar();
             </p>
           </div>
           <!-- /.testimonials-text -->
-        </a>
+        </div>
         <!-- /.content-card -->
       </li>
     </ul>
