@@ -1,0 +1,84 @@
+.testimonials {
+    margin-bottom: 30px;
+    &-title {
+        margin-bottom: 20px;
+    }
+    &-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        margin: 0 -15px;
+        padding: 25px 15px;
+        padding-bottom: 35px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+    &-item {
+        min-width: 100%;
+        scroll-snap-align: center;
+    }
+    &-avatar-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(15px, -25px);
+        background: $bg-gradient-onyx;
+        border-radius: 14px;
+        box-shadow: $shadow-1;
+    }
+    &-item-title {
+        margin-bottom: 7px;
+    }
+    &-text {
+        color: $light-gray;
+        font-size: $fs-6;
+        font-weight: $fw-300;
+        line-height: 1.6;
+        display: -webkit-box;
+        line-clamp: 4;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
+
+.content-card {
+    display: block;
+    position: relative;
+    background: $border-gradient-onyx;
+    padding: 15px;
+    padding-top: 45px;
+    border-radius: 15px;
+    box-shadow: $shadow-2;
+    z-index: 1;
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 1px;
+        background: $bg-gradient-jet;
+        border-radius: inherit;
+        z-index: -1;
+    }
+}
+
+.has-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+    background: $onyx;
+    border-radius: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+    background: $orange-yellow-crayola;
+    border-radius: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-button {
+    width: 20px;
+}
