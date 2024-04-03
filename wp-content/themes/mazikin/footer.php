@@ -24,19 +24,16 @@
     </button>
     <div class="modal-img-wrapper">
       <figure class="modal-avatar-box">
-        <img src="wp-content/themes/mazikin/img/avatar-1.png" alt="" width="80" data-modal-img>
+        <img src="" alt="" width="80" data-modal-img>
       </figure>
       <img src="/wp-content/themes/mazikin/img/icon-quote.svg" alt="">
     </div>
     <!-- /.modal-img-wrapper -->
     <div class="modal-content">
-      <h3 class="h3 modal-title" data-modal-title>denis</h3>
-      <time datetime="2021-06-14">14 june, 2021</time>
+      <h3 class="h3 modal-title" data-modal-title></h3>
+      <time datetime="2021-06-14"></time>
       <div data-modal-text>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quam ipsa, magni, harum quos nostrum adipisci praesentium quisquam aliquam ea, eum vero soluta molestias cupiditate? Distinctio vel tempore molestiae necessitatibus.
-          Animi doloremque debitis pariatur velit porro dolor vel error temporibus mollitia facilis non ratione laboriosam odio iste aut accusamus rerum, asperiores corporis veniam perferendis et, quibusdam sit autem a! Ipsa.
-          Necessitatibus eos aperiam dolorem similique nisi excepturi tempore, ratione fugit modi cumque ut, voluptas maxime veritatis! Eligendi architecto ea ex corporis delectus nostrum minus dolor, fugiat, quos officiis error illum.
         </p>
       </div>
     </div>
