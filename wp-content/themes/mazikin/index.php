@@ -18,7 +18,7 @@ get_sidebar();
 
 ?>
 <!-- ABOUT -->
-<article class="about active" data-page="about">
+<article class="about" data-page="about">
   <header>
     <h2 class="h2 arcticle-title">Обо мне</h2>
   </header>
@@ -253,6 +253,162 @@ get_sidebar();
   <!-- /.skill -->
 </article>
 <!-- ABOUT -->
+<!-- PORTFOLIO -->
+<arcticle class="portfolio active" data-page="portfolio">
+  <header>
+    <h2 class="h2 arcticle-title">Портфолио</h2>
+  </header>
+  <section class="projects">
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Все</button>
+      </li>
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Приложения</button>
+      </li>
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Разработка</button>
+      </li>
+    </ul>
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-select-value> Выбрать категорию</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+        <!-- /.select-icon -->
+      </button>
+      <!-- /.filter-select -->
+      <ul class="select-list">
+        <li class="select-item">
+          <button data-select-item>Все</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Приложения</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Разработка</button>
+        </li>
+      </ul>
+      <!-- /.select-list -->
+    </div>
+    <!-- /.filter-select-box -->
+    <ul class="project-list">
+      <li class="project-item" data-filter-item data-category="Разработка">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-1.jpg" alt="Finance" loading="lazy">
+          </figure>
+          <h3 class="project-title">Finance</h3>
+          <p class="project-category">Разработка</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Разработка">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-2.png" alt="Orizon" loading="lazy">
+          </figure>
+          <h3 class="project-title">Orizon</h3>
+          <p class="project-category">Разработка</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Разработка">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-3.jpg" alt="Finance" loading="lazy">
+          </figure>
+          <h3 class="project-title">Finance</h3>
+          <p class="project-category">Разработка</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Разработка">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-4.png" alt="Fundo" loading="lazy">
+          </figure>
+          <h3 class="project-title">Fundo</h3>
+          <p class="project-category">Разработка</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Приложение">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-5.png" alt="dsm" loading="lazy">
+          </figure>
+          <h3 class="project-title">dsm</h3>
+          <p class="project-category">Приложение</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Приложение">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-6.png" alt="metaspark" loading="lazy">
+          </figure>
+          <h3 class="project-title">metaspark</h3>
+          <p class="project-category">Приложение</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Приложение">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-7.png" alt="summary" loading="lazy">
+          </figure>
+          <h3 class="project-title">summary</h3>
+          <p class="project-category">Приложение</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Приложение">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-8.png" alt="task manager" loading="lazy">
+          </figure>
+          <h3 class="project-title">task manager</h3>
+          <p class="project-category">Приложение</p>
+        </a>
+      </li>
+      <li class="project-item" data-filter-item data-category="Приложение">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="wp-content/themes/mazikin/img/project-9.png" alt="arrival" loading="lazy">
+          </figure>
+          <h3 class="project-title">arrival</h3>
+          <p class="project-category">Приложение</p>
+        </a>
+      </li>
+    </ul>
+    <!-- /.project-list -->
+  </section>
+  <!-- /.projects -->
+</arcticle>
+<!-- /.portfolio -->
+<!-- PORTFOLIO -->
 
 <?php
 get_footer();
