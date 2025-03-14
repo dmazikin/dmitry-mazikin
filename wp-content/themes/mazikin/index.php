@@ -252,5 +252,7 @@ get_sidebar();
   </section>
   <!-- /.skill -->
 </article>
+<!-- ABOUT -->
+
 <?php
 get_footer();
