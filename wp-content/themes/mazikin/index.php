@@ -254,7 +254,7 @@ get_sidebar();
 </article>
 <!-- ABOUT -->
 <!-- PORTFOLIO -->
-<arcticle class="portfolio active" data-page="portfolio">
+<article class="portfolio active" data-page="portfolio">
   <header>
     <h2 class="h2 arcticle-title">Портфолио</h2>
   </header>
@@ -294,7 +294,7 @@ get_sidebar();
     </div>
     <!-- /.filter-select-box -->
     <ul class="project-list">
-      <li class="project-item" data-filter-item data-category="Разработка">
+      <li class="project-item active" data-filter-item data-category="Разработка">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -306,7 +306,7 @@ get_sidebar();
           <p class="project-category">Разработка</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Разработка">
+      <li class="project-item active" data-filter-item data-category="Разработка">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -318,7 +318,7 @@ get_sidebar();
           <p class="project-category">Разработка</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Разработка">
+      <li class="project-item active" data-filter-item data-category="Разработка">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -330,7 +330,7 @@ get_sidebar();
           <p class="project-category">Разработка</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Разработка">
+      <li class="project-item active" data-filter-item data-category="Разработка">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -342,7 +342,7 @@ get_sidebar();
           <p class="project-category">Разработка</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Приложение">
+      <li class="project-item active" data-filter-item data-category="Приложение">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -354,7 +354,7 @@ get_sidebar();
           <p class="project-category">Приложение</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Приложение">
+      <li class="project-item active" data-filter-item data-category="Приложение">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -366,7 +366,7 @@ get_sidebar();
           <p class="project-category">Приложение</p>
         </a>
       </li>
-      <li class="project-item" data-filter-item data-category="Приложение">
+      <li class="project-item active" data-filter-item data-category="Приложение">
         <a href="#">
           <figure class="project-img">
             <div class="project-item-icon-box">
@@ -384,7 +384,7 @@ get_sidebar();
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-            <img src="wp-content/themes/mazikin/img/project-8.png" alt="task manager" loading="lazy">
+            <img src="wp-content/themes/mazikin/img/project-8.jpg" alt="task manager" loading="lazy">
           </figure>
           <h3 class="project-title">task manager</h3>
           <p class="project-category">Приложение</p>
@@ -406,7 +406,7 @@ get_sidebar();
     <!-- /.project-list -->
   </section>
   <!-- /.projects -->
-</arcticle>
+</article>
 <!-- /.portfolio -->
 <!-- PORTFOLIO -->
 
