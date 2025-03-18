@@ -18,47 +18,6 @@ article.active {
     }
 }
 
-.h2,
-.h3,
-.h4,
-.h5,
-.skill-item-title {
-    color: $white-2;
-    text-transform: capitalize;
-}
-
-.h2 {
-    font-size: $fs-1;
-}
-
-.h3 {
-    font-size: $fs-2;
-}
-
-.h4 {
-    font-size: $fs-4;
-}
-
-.h5 {
-    font-size: $fs-7;
-    font-weight: $fw-500;
-}
-
-.arcticle-title {
-    position: relative;
-    padding-bottom: 7px;
-    &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 30px;
-        height: 3px;
-        background: $text-gradient-yellow;
-        border-radius: 3px;
-    }
-}
-
 .about .arcticle-title {
     margin-bottom: 15px;
 }

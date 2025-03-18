@@ -8,6 +8,32 @@
   #RESET
 \*-----------------------------------*/
 
+.h2,
+.h3,
+.h4,
+.h5,
+.skill-item-title {
+    color: $white-2;
+    text-transform: capitalize;
+}
+
+.h2 {
+    font-size: $fs-1;
+}
+
+.h3 {
+    font-size: $fs-2;
+}
+
+.h4 {
+    font-size: $fs-4;
+}
+
+.h5 {
+    font-size: $fs-7;
+    font-weight: $fw-500;
+}
+
 img {
     display: block;
 }
@@ -44,6 +70,23 @@ article {
     padding: 15px;
     box-shadow: $shadow-1;
     z-index: 1;
+}
+
+.article-title {
+    position: relative;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+}
+
+.article-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: $text-gradient-yellow;
+    border-radius: 3px;
 }
 
 ::selection {
