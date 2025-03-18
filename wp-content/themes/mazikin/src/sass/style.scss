@@ -8,6 +8,10 @@
   #RESET
 \*-----------------------------------*/
 
+p {
+    margin: 0;
+}
+
 .h2,
 .h3,
 .h4,
@@ -130,3 +134,4 @@ body {
 @import "section/clients";
 @import "section/skill";
 @import "section/portfolio";
+@import "section/blog";
