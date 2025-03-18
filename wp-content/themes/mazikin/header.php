@@ -35,16 +35,16 @@
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Обо мне</button>
+            <button class="navbar-link active" data-nav-link="About">Обо мне</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Портфолио</button>
+            <button class="navbar-link" data-nav-link="Portfolio">Портфолио</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Блог</button>
+            <button class="navbar-link" data-nav-link="Blog">Блог</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Контакты</button>
+            <button class="navbar-link" data-nav-link="Contact">Контакты</button>
           </li>
         </ul>
         <!-- /.navbar-list -->
