@@ -9,6 +9,8 @@
 /wp-content/uploads/
 /wp-content/upgrade/
 /wp-content/index.php
+/wp-content/themes/twentytwentyfive/
+wp-content/jetpack-waf/
 # testing
 /coverage
 
