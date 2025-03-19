@@ -14,8 +14,6 @@
  */
 
 get_header();
-get_sidebar();
-
 ?>
 <!-- ABOUT -->
 <article class="about active" data-page="обо мне">

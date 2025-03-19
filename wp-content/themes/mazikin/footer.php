@@ -26,7 +26,7 @@
       <figure class="modal-avatar-box">
         <img src="" alt="" width="80" data-modal-img>
       </figure>
-      <img src="/wp-content/themes/mazikin/img/icon-quote.svg" alt="">
+      <img src="wp-content/themes/mazikin/img/icon-quote.svg" alt="">
     </div>
     <!-- /.modal-img-wrapper -->
     <div class="modal-content">
