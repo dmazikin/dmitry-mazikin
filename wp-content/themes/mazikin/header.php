@@ -37,7 +37,7 @@
           <img src="/wp-content/themes//mazikin/icons/my-avatar.png" alt="Dmitry Mazikin" width="88">
         </figure>
         <div class="info-content">
-          <h1 class="name" title="Dmitry Mazikin">Dmitry Mazikin</h1>
+          <h1 class="name" title="Dmitry Mazikin">Дмитрий Мазикин</h1>
           <p class="title">Web-developer</p>
         </div>
         <!-- /.info-content -->
@@ -64,7 +64,7 @@
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title">Телефон</p>
               <a href="tel:89537078683" class="contact-link">8-953-707-86-83</a>
             </div>
           </li>
@@ -73,8 +73,8 @@
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-              <time datetime="1993-06-09">June 9, 1993</time>
+              <p class="contact-title">День рождение</p>
+              <time datetime="1993-06-09">9 Июня, 1993</time>
             </div>
           </li>
           <li class="contact-item">
@@ -82,8 +82,8 @@
               <ion-icon name="location-outline"></ion-icon>
             </div>
             <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Tambov,Russia</address>
+              <p class="contact-title">Проживание</p>
+              <address>Тамбов,Россия</address>
             </div>
           </li>
         </ul>
