@@ -42,7 +42,7 @@
         </div>
         <!-- /.info-content -->
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>Развернуть</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
         <!-- /.info_more-btn -->
@@ -56,7 +56,7 @@
             </div>
             <div class="contact-info">
               <p class="contact-title">Email</p>
-              <a href="mailto:mazikindima@mail.ru" class="contact-link">mazikindima@mail.ru</a>
+              <a href="mailto:mazikindima@mail.ru" class="contact-link">support@fl-dm.ru</a>
             </div>
           </li>
           <li class="contact-item">
