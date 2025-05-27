@@ -18,15 +18,34 @@ get_header();
 <!-- ABOUT -->
 <article class="about active" data-page="обо мне">
   <header>
-    <h2 class="h2 arcticle-title">Обо мне</h2>
+    <h2 class="h2 article-title">Обо мне</h2>
   </header>
 
   <section class="about-text">
+    <h3 class="h3">🚀 Я помогаю бизнесу эффективно работать в интернете</h3>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium eum, qui ex sapiente expedita repudiandae quibusdam soluta quas error sint voluptatibus at similique, aliquid ipsam nesciunt quae veritatis pariatur.
+      Привет! Я — специалист в области вёрстки, интернет-продвижения и внедрения систем управления бизнесом. Я помогаю компаниям создавать красивые и функциональные сайты, настраивать автоматизацию и повышать эффективность работы с помощью современных инструментов. Являюсь сертифицированным специалистом Bitrix24, партнёром компании, и помогаю бизнесу внедрять и настраивать как облачные, так и коробочные версии Bitrix24.
     </p>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium eum, qui ex sapiente expedita repudiandae quibusdam soluta quas error sint voluptatibus at similique, aliquid ipsam nesciunt quae veritatis pariatur.
+      Кроме внедрения, я провожу <strong class="strong">платные и бесплатные консультации</strong> по всем аспектам работы с Bitrix24, помогаю настроить CRM, автоматизацию и интеграции с другими сервисами. Моя цель — не просто запустить систему, а сделать её удобной и эффективной для вашей команды. Если вы хотите создать сайт, автоматизировать процессы или просто узнать, как цифровизация поможет вашему бизнесу расти — я с радостью помогу.
+    </p>
+    <h3 class="h3">💡 Почему стоит обратиться ко мне?</h3>
+    <ul class="ul-list">
+      <li>Я не просто внедряю системы — я помогаю понять, как ими пользоваться.</li>
+      <li>Работаю с клиентами, которые хотят не просто запустить сайт или CRM, а настроить их так, чтобы они приносили результат.</li>
+      <li>Готов поддержать вас на всех этапах — от идеи до запуска и сопровождения.</li>
+    </ul>
+    <p>
+      Если вы хотите:
+    <ul class="ul-list">
+      <li>создать <strong class="strong">красивый и удобный сайт</strong> ,</li>
+      <li>автоматизировать процессы с помощью <strong class="strong">Bitrix24</strong>.</li>
+      <li>получить <strong class="strong">консультацию по выбору инструментов</strong></li>
+      <li>или просто <strong class="strong">узнать, как цифровизация поможет вашему бизнесу расти</strong> — я с радостью помогу.</li>
+    </ul>
+    </p>
+    <p>
+      <strong class="strong">📩 Свяжитесь со мной</strong> — я отвечу на все вопросы и предложу решение, которое подойдёт именно вашему бизнесу.
     </p>
   </section>
   <!-- /.about-text -->
@@ -40,9 +59,9 @@ get_header();
         </div>
         <!-- /.service-icon-box -->
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Web-desing</h4>
+          <h4 class="h4 service-item-title">Верстка сайтов по макетам</h4>
           <p class="service-item-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam eaque culpa. Corporis ad nisi earum, mollitia repudiandae architecto fugit esse dicta illo officia ex repellat tempora saepe inventore reiciendis.
+            Cоздаю адаптивные, кросс-браузерные и SEO-оптимизированные страницы.
           </p>
           <!-- /.service-item-text -->
         </div>
@@ -54,9 +73,9 @@ get_header();
         </div>
         <!-- /.service-icon-box -->
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Web-developer</h4>
+          <h4 class="h4 service-item-title">Работа с CMS WordPress</h4>
           <p class="service-item-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam eaque culpa. Corporis ad nisi earum, mollitia repudiandae architecto fugit esse dicta illo officia ex repellat tempora saepe inventore reiciendis.
+            Oт установки и настройки до интеграции готовой верстки.
           </p>
           <!-- /.service-item-text -->
         </div>
@@ -68,9 +87,9 @@ get_header();
         </div>
         <!-- /.service-icon-box -->
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Mobile-app</h4>
+          <h4 class="h4 service-item-title">Интеграция Bitrix24</h4>
           <p class="service-item-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam eaque culpa. Corporis ad nisi earum, mollitia repudiandae architecto fugit esse dicta illo officia ex repellat tempora saepe inventore reiciendis.
+            Внедряю систему в бизнес-процессы, настраиваю CRM, автоматизацию, интеграции с другими сервисами.
           </p>
           <!-- /.service-item-text -->
         </div>
@@ -78,13 +97,41 @@ get_header();
       </li>
       <li class="service-item">
         <div class="service-icon-box">
-          <img src="wp-content/themes/mazikin/img/icon-photo.svg" alt="" width="40">
+          <img src="wp-content/themes/mazikin/img/admin.png" alt="" width="40">
         </div>
         <!-- /.service-icon-box -->
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Photo</h4>
+          <h4 class="h4 service-item-title">Администрирование порталов Bitrix24</h4>
           <p class="service-item-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam eaque culpa. Corporis ad nisi earum, mollitia repudiandae architecto fugit esse dicta illo officia ex repellat tempora saepe inventore reiciendis.
+            Поддерживаю как облачные, так и коробочные версии.
+          </p>
+          <!-- /.service-item-text -->
+        </div>
+        <!-- /.service-content-box -->
+      </li>
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="wp-content/themes/mazikin/img/consultat.png" alt="" width="40">
+        </div>
+        <!-- /.service-icon-box -->
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Провожу консультации</h4>
+          <p class="service-item-text">
+            Как платные, так и бесплатные — по всем аспектам работы с Bitrix24.
+          </p>
+          <!-- /.service-item-text -->
+        </div>
+        <!-- /.service-content-box -->
+      </li>
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="wp-content/themes/mazikin/img/sertificat.png" alt="" width="40">
+        </div>
+        <!-- /.service-icon-box -->
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Сертифицированный специалист Bitrix24</h4>
+          <p class="service-item-text">
+            Гарантия качества и профессионализма.
           </p>
           <!-- /.service-item-text -->
         </div>

@@ -4,6 +4,18 @@ article {
     display: none;
 }
 
+.ul-list {
+    list-style: decimal;
+    padding-left: 55px;
+    margin-top: 25px;
+}
+
+.strong {
+    font-weight: 700;
+    color: #fafafa;
+    text-transform: capitalize;
+}
+
 article.active {
     display: block;
     animation: fade 0.5s ease backwards;
@@ -23,10 +35,11 @@ article.active {
 }
 
 .about-text {
+    letter-spacing: 2px;
     color: $light-gray;
     font-size: $fs-6;
     font-weight: $fw-300;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .about-text p {
