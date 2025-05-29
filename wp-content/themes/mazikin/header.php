@@ -25,6 +25,7 @@
   <link rel="shortcut icon" href="/wp-content/themes//mazikin/icons/favicon/logo.ico">
   <title><?php bloginfo('description'); ?></title>
   <?php wp_head(); ?>
+  <meta name="google-site-verification" content="-squdvJT6qRpKl4Z9YhbqIqXN7h002v1OJMzRDe3Cwg" />
 </head>
 
 <body <?php body_class(); ?>>
