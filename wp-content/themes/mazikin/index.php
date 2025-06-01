@@ -151,43 +151,11 @@ get_header();
             <img src="wp-content/themes/mazikin/img/avatar-1.png" alt="" width="60" data-testimonials-avatar>
           </figure>
           <!-- /.testtimonials-avatar-box -->
-          <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel</h4>
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Виктор</h4>
           <div class="testimonials-text" data-testimonials-text>
+            <h3 class="h3">Обновление верстки и стилей сайта</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquid corrupti! Excepturi libero eius iste tempora accusamus aut, consequuntur a nemo facere reprehenderit dignissimos error, ab sunt modi veritatis doloribus.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquid corrupti! Excepturi libero eius iste tempora accusamus aut, consequuntur a nemo facere reprehenderit dignissimos error, ab sunt modi veritatis doloribus.
-            </p>
-          </div>
-          <!-- /.testimonials-text -->
-        </div>
-        <!-- /.content-card -->
-      </li>
-      <li class="testimonials-item">
-        <div class="content-card" data-testimonials-item>
-          <figure class="testimonials-avatar-box">
-            <img src="wp-content/themes/mazikin/img/avatar-2.png" alt="" width="60" data-testimonials-avatar>
-          </figure>
-          <!-- /.testtimonials-avatar-box -->
-          <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel</h4>
-          <div class="testimonials-text" data-testimonials-text>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquid corrupti! Excepturi libero eius iste tempora accusamus aut, consequuntur a nemo facere reprehenderit dignissimos error, ab sunt modi veritatis doloribus.
-            </p>
-          </div>
-          <!-- /.testimonials-text -->
-        </div>
-        <!-- /.content-card -->
-      </li>
-      <li class="testimonials-item">
-        <div class="content-card" data-testimonials-item>
-          <figure class="testimonials-avatar-box">
-            <img src="wp-content/themes/mazikin/img/avatar-3.png" alt="" width="60" data-testimonials-avatar>
-          </figure>
-          <!-- /.testtimonials-avatar-box -->
-          <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel</h4>
-          <div class="testimonials-text" data-testimonials-text>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquid corrupti! Excepturi libero eius iste tempora accusamus aut, consequuntur a nemo facere reprehenderit dignissimos error, ab sunt modi veritatis doloribus.
+              Все отлично, обращусь ещё
             </p>
           </div>
           <!-- /.testimonials-text -->
@@ -200,10 +168,45 @@ get_header();
             <img src="wp-content/themes/mazikin/img/avatar-4.png" alt="" width="60" data-testimonials-avatar>
           </figure>
           <!-- /.testtimonials-avatar-box -->
-          <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel</h4>
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Денис</h4>
           <div class="testimonials-text" data-testimonials-text>
+            <h3 class="h3">Скорректировать верстку страницы</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquid corrupti! Excepturi libero eius iste tempora accusamus aut, consequuntur a nemo facere reprehenderit dignissimos error, ab sunt modi veritatis doloribus.
+              Отличный исполнитель. Работа выполнена качественно. В процессе появились правки и пришлось переделывать часть функционала, которая не входила в ТЗ. Пришли к соглашению и работу закончили
+            </p>
+          </div>
+          <!-- /.testimonials-text -->
+        </div>
+        <!-- /.content-card -->
+      </li>
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+          <figure class="testimonials-avatar-box">
+            <img src="wp-content/themes/mazikin/img/avatar-1.png" alt="" width="60" data-testimonials-avatar>
+          </figure>
+          <!-- /.testtimonials-avatar-box -->
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Джастин</h4>
+          <div class="testimonials-text" data-testimonials-text>
+            <h3 class="h3">Качественный сайт 9 экранов</h3>
+            <p>
+              Прекрасная работа , сайтом остался очень доволен . Правки вносил максимально терпеливо и точно . Результатом очень доволен , могу рекомендовать 🔥🎊🥳
+            </p>
+          </div>
+          <!-- /.testimonials-text -->
+        </div>
+        <!-- /.content-card -->
+      </li>
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+          <figure class="testimonials-avatar-box">
+            <img src="wp-content/themes/mazikin/img/avatar-4.png" alt="" width="60" data-testimonials-avatar>
+          </figure>
+          <!-- /.testtimonials-avatar-box -->
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Константин</h4>
+          <div class="testimonials-text" data-testimonials-text>
+            <h3 class="h3">Внести контентные правки в html </h3>
+            <p>
+              Рекомендую Дмитрия, выполнил качественно довольную рутинную задачу, всегда на связи, сделал все исправления без лишних разговоров. Будем в дальнейшем сотрудничать
             </p>
           </div>
           <!-- /.testimonials-text -->
