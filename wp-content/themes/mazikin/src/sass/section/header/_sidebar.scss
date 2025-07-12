@@ -170,6 +170,7 @@ article {
 .contact-info :is(.contact-link, time, address) {
     color: $white-2;
     font-size: $fs-7;
+    text-decoration: none;
 }
 
 .contact-info address {
