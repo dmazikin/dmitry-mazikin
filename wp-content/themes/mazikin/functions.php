@@ -47,11 +47,11 @@ function mazikin_setup()
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support('post-thumbnails');
-
+	get_template_part('template-parts/nav_walker_custom');
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__('Primary', 'mazikin'),
+			'main' => 'Основное меню',
 		)
 	);
 

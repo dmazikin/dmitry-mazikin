@@ -112,9 +112,21 @@
       <!-- /.sidebar-info_more -->
     </aside>
     <!-- SIDEBAR -->
+
     <div class="main-content">
       <!-- NAVBAR -->
-      <nav class="navbar">
+      <?php
+      wp_nav_menu(array(
+        'menu'            => 'Главное меню',
+        'container'       => 'nav',           // (string) Контейнер меню. Обворачиватель ul. Указывается тег контейнера (по умолчанию в тег div)
+        'container_class' => 'navbar',              // (string) class контейнера (div тега)
+        'menu_class'      => 'navbar-list',          // (string) class самого меню (ul тега)
+        'theme_location'  => 'Основное меню',               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
+        'items_wrap' => '<ul class="%2$s">%3$s</ul>',
+        'walker'          => new Custom_Walker_Nav_Menu(),
+      ));
+      ?>
+      <!-- <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
             <button class="navbar-link active" data-nav-link="About">Обо мне</button>
@@ -128,7 +140,7 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link="Contact">Контакты</button>
           </li>
-        </ul>
-        <!-- /.navbar-list -->
+        </ul> -->
+      <!-- /.navbar-list -->
       </nav>
       <!-- /.navbar -->
