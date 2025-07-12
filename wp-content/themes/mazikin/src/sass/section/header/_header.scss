@@ -24,6 +24,8 @@
         font-size: $fs-8;
         padding: 20px 7px;
         transition: color $transition-1;
+        display: block;
+        text-decoration: none;
         &:hover,
         &:focus {
             color: $light-gray-70;
