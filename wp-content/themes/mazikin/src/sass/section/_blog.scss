@@ -15,6 +15,7 @@
     box-shadow: $shadow-4;
     border-radius: 16px;
     z-index: 1;
+    text-decoration: none;
 }
 
 .blog-post-item>a::before {
@@ -85,4 +86,41 @@ time {
     font-size: $fs-6;
     font-weight: $fw-300;
     line-height: 1.6;
+}
+
+.article-blog {
+    padding-top: 80px;
+}
+
+.wp-block-heading {
+    color: #fafafa;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.post-title {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.nav-previous a {
+    text-decoration: none;
+}
+
+.nav-previous a:hover {
+    text-decoration: none;
+    color: #ffbb5b;
+}
+
+.post-navigation {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-title-recomend>header>h4 {
+    margin-top: 15px;
+}
+
+.nav-title-recomend {
+    color: #fafafa;
 }

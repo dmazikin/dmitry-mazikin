@@ -174,3 +174,9 @@ require get_template_directory() . '/inc/customizer.php';
 if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+function custom_excerpt_length($length)
+{
+	return 10; // Замените 25 на желаемую длину отрывка в словах
+}
+add_filter('excerpt_length', 'custom_excerpt_length', 999);

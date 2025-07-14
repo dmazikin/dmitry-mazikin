@@ -34,7 +34,8 @@ article.active {
     margin-bottom: 15px;
 }
 
-.about-text {
+.about-text,
+.blog-text {
     letter-spacing: 2px;
     color: $light-gray;
     font-size: $fs-6;
