@@ -16,6 +16,7 @@ get_header();
     $myposts = get_posts([
       'post_type' => 'post',
       'posts_per_page' => '-1',
+      'category' => '-4',
     ]);
     ?>
     <ul class="blog-posts-list">
