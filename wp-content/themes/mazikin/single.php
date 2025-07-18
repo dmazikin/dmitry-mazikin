@@ -26,20 +26,20 @@ get_header(); ?>
     <section class="blog-text">
       <?php the_content(); ?>
     </section>
-    <div class="nav-title-recomend">
+    <!-- <div class="nav-title-recomend">
       <header>
         <h4 class="h2 article-title">Похожие записи:</h4>
       </header>
-    </div>
+    </div> -->
     <?
-    the_post_navigation(array(
+    /* the_post_navigation(array(
       'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('', 'twentyfifteen') . '</span> ' .
         '<span class="screen-reader-text">' . __('Next post:', 'twentyfifteen') . '</span> ' .
         '<span class="post-title">%title</span>',
       'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('', 'twentyfifteen') . '</span> ' .
         '<span class="screen-reader-text">' . __('Previous post:', 'twentyfifteen') . '</span> ' .
         '<span class="post-title">%title</span>',
-    ));
+    )); */
     ?>
   <? endwhile; ?>
 </article>
