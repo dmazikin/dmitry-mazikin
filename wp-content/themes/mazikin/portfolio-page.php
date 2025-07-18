@@ -9,7 +9,7 @@ get_header();
 <article class="portfolio active" data-page="портфолио">
 
   <header>
-    <h2 class="h2 article-title">Портфолио</h2>
+    <h2 class="h2 title">Портфолио</h2>
   </header>
 
   <section class="projects">

@@ -160,7 +160,7 @@
 }
 
 .project-title {
-    color: $white-1;
+    color: #515a6e;
     font-size: $fs-5;
     font-weight: $fw-400;
     text-transform: capitalize;
@@ -168,9 +168,13 @@
 }
 
 .project-category {
-    color: $light-gray-70;
-    font-size: $fs-6;
+    background: #515a6e;
+    color: #ffffff;
+    font-size: 12px;
     font-weight: $fw-300;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
 
 .portfolio-link {
