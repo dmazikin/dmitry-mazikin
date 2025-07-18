@@ -45,6 +45,10 @@
     }
 }
 
+.view-text {
+    color: #ffffff;
+}
+
 .content-card {
     display: block;
     position: relative;
@@ -52,7 +56,6 @@
     padding: 15px;
     padding-top: 45px;
     border-radius: 15px;
-    box-shadow: $shadow-2;
     cursor: pointer;
     z-index: 1;
     &::before {

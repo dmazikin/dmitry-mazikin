@@ -1,5 +1,3 @@
-/* @import 'libs/bootstrap-reboot.min'; */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet');
 @import 'libs/bootstrap-grid.min';
 @import "base/variables";
@@ -69,27 +67,31 @@ textarea {
 
 article {
     background: $eerie-black-2;
-    border: 1px solid $jet;
     border-radius: 20px;
     padding: 15px;
     box-shadow: $shadow-1;
     z-index: 1;
 }
 
-.article-title {
+.title {
+    text-transform: uppercase;
     position: relative;
     padding-bottom: 7px;
     margin-bottom: 20px;
+    color: #515a6e;
+    &-sub {
+        color: #515a6e;
+    }
 }
 
-.article-title::after {
+.title::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 30px;
     height: 3px;
-    background: $text-gradient-yellow;
+    background: $text-gradient-blue;
     border-radius: 3px;
 }
 
@@ -112,7 +114,7 @@ a:hover {
 }
 
 body {
-    background: $smoky-black;
+    background: #ffffff;
 }
 
 

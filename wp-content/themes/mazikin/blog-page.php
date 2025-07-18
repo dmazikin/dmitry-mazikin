@@ -5,9 +5,9 @@ Template Name: Блог
 get_header();
 ?>
 <!-- BLOG -->
-<article class="blog active" data-page="блог">
+<article class="blog" data-page="блог">
   <header>
-    <h2 class="h2 article-title">Блог</h2>
+    <h2 class="h2 title">Блог</h2>
   </header>
   <section class="blog-posts">
     <?php

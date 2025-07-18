@@ -35,11 +35,11 @@
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <img src="/wp-content/themes//mazikin/icons/my-avatar.png" alt="Dmitry Mazikin" width="88">
+          <img class="avatar-box__img" src="<?php the_field('avatar_sidebar') ?>" alt="Dmitry Mazikin" width="88">
         </figure>
         <div class="info-content">
           <h1 class="name" title="Dmitry Mazikin">Дмитрий Мазикин</h1>
-          <p class="title">Web-developer</p>
+          <p class="info-title">Web-developer</p>
         </div>
         <!-- /.info-content -->
         <button class="info_more-btn" data-sidebar-btn>

@@ -5,10 +5,8 @@
 .sidebar,
 article {
     background: $eerie-black-2;
-    border: 1px solid $jet;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: $shadow-1;
     z-index: 1;
 }
 
@@ -21,7 +19,6 @@ article {
 
 .icon-box {
     position: relative;
-    background: $bg-gradient-onyx;
     width: 30px;
     height: 30px;
     border-radius: 8px;
@@ -71,19 +68,26 @@ article {
 }
 
 .avatar-box {
-    background: $bg-gradient-onyx;
     border-radius: 20px;
+    margin-bottom: 0;
+    width: 150px;
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
 
 .info-content .name {
-    color: $white-2;
+    color: #515a6e;
     font-size: $fs-3;
     font-weight: $fw-500;
     letter-spacing: -0.25px;
     margin-bottom: 10px;
 }
 
-.info-content .title {
+.info-content .info-title {
+    margin: 0 auto;
     color: $white-1;
     background: $onyx;
     font-size: $fs-8;
@@ -102,7 +106,6 @@ article {
     color: $orange-yellow-crayola;
     background: $border-gradient-onyx;
     padding: 10px;
-    box-shadow: $shadow-2;
     transition: $transition-1;
     z-index: 1;
 }
@@ -112,19 +115,9 @@ article {
     position: absolute;
     inset: 1px;
     border-radius: inherit;
-    background: $bg-gradient-jet;
+    background: #515a6e;
     transition: $transition-1;
     z-index: -1;
-}
-
-.info_more-btn:hover,
-.info_more-btn:focus {
-    background: $bg-gradient-yellow-1;
-}
-
-.info_more-btn:hover::before,
-.info_more-btn:focus::before {
-    background: $bg-gradient-yellow-2;
 }
 
 .info_more-btn span {
@@ -168,7 +161,7 @@ article {
 }
 
 .contact-info :is(.contact-link, time, address) {
-    color: $white-2;
+    color: #515a6e;
     font-size: $fs-7;
     text-decoration: none;
 }

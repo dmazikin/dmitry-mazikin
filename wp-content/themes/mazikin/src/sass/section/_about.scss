@@ -62,7 +62,6 @@ article.active {
     background: $border-gradient-onyx;
     padding: 20px;
     border-radius: 14px;
-    box-shadow: $shadow-2;
     z-index: 1;
     &::before {
         content: "";
@@ -90,7 +89,7 @@ article.active {
 }
 
 .service-item-text {
-    color: $light-gray;
+    color: #ffffff;
     font-size: $fs-6;
     font-weight: $fw-300;
     line-height: 1.6;

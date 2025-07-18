@@ -1,3 +1,18 @@
+@media (min-width: 320px) {
+    .avatar-box {
+        width: 80px;
+        height: 80px;
+    }
+    .navbar {
+        bottom: -25px;
+        padding: 0;
+    }
+    .title-sub {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 @media (min-width: 450px) {
     .clients-item {
         min-width: calc(33.33% - 10px);
@@ -5,6 +20,10 @@
     .project-img,
     .blog-banner-box {
         height: auto;
+    }
+    .avatar-box {
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -23,11 +42,11 @@
         margin-inline: auto;
         padding: 30px;
     }
-    .article-title {
+    .title {
         font-weight: $fw-600;
         padding-bottom: 15px;
     }
-    .article-title::after {
+    .title::after {
         width: 40px;
         height: 5px;
     }
@@ -53,9 +72,8 @@
     }
     .avatar-box {
         border-radius: 30px;
-    }
-    .avatar-box img {
-        width: 120px;
+        width: 100px;
+        height: 110px;
     }
     .info-content .name {
         margin-bottom: 15px;
@@ -71,6 +89,7 @@
     .info_more-btn span {
         display: block;
         font-size: $fs-8;
+        color: #ffffff;
     }
     .info_more-btn ion-icon {
         display: none;
@@ -96,7 +115,7 @@
         font-size: 14px;
     }
     /*  ABOUT */
-    .about .article-title {
+    .about .title {
         margin-bottom: 20px;
     }
     .about-text {
@@ -245,7 +264,7 @@
     .modal-avatar-box img {
         width: 80px;
     }
-    .article-title {
+    .title {
         padding-bottom: 20px;
     }
     .filter-select-box {
@@ -292,7 +311,6 @@
     .sidebar,
     article {
         width: 950px;
-        box-shadow: $shadow-5;
     }
     main {
         margin-bottom: 65px;
@@ -390,9 +408,6 @@
     }
     .sidebar-info {
         flex-direction: column;
-    }
-    .avatar-box img {
-        width: 150px;
     }
     .info-content .name {
         white-space: nowrap;
