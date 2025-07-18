@@ -35,7 +35,7 @@
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <img class="avatar-box__img" src="<?php the_field('avatar_sidebar') ?>" alt="Dmitry Mazikin" width="88">
+          <img class="avatar-box__img" src="<?php the_field('avatar_sidebar', 2) ?>" alt="Dmitry Mazikin" width="88">
         </figure>
         <div class="info-content">
           <h1 class="name" title="Dmitry Mazikin">Дмитрий Мазикин</h1>
